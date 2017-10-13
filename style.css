@@ -45,4 +45,28 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.header {
+  height: 58px;
+  width: 100%;
+  background-color: #ffab00; }
+  .header .logo {
+    color: #064159;
+    size: 21px;
+    font-family: "Lato", sans-serif;
+    margin: auto 0px auto 24px;
+    line-height: 58px;
+    text-decoration: underline; }
+  .header .logo:hover {
+    color: #efe9d8; }
+  .header .logo:active {
+    color: black; }
+  .header .tech {
+    font-weight: 400;
+    display: inline; }
+  .header .lancaster {
+    font-weight: 900;
+    display: inline; }
+  .header nav {
+    display: none; }
+
 /*# sourceMappingURL=style.css.map */

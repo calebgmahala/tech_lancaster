@@ -1,0 +1,31 @@
+//mobile
+.header {
+	height: 58px;
+	width: 100%;
+	background-color: $primary;
+	.logo {
+		color: $headerblue;
+		size: 21px;
+	  font-family: "Lato", sans-serif;
+		margin: auto 0px auto 24px;
+		line-height: 58px;
+		text-decoration: underline;
+	}
+	.logo:hover {
+		color: $white;
+	}
+	.logo:active {
+		color: black;
+	}
+	.tech {
+		font-weight: 400;
+		display: inline;
+	}
+	.lancaster {
+		font-weight: 900;
+		display: inline;
+	}
+	nav {
+		display: none;
+	}
+}
