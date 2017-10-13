@@ -1,2 +1,3 @@
-.sass-cach/
+.sass-cache/
+*.css.map
 extra_content/
