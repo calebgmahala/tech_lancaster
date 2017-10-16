@@ -17,3 +17,7 @@ $footerblue: #6f8998;
   -o-transform: translate($amount);
   transform: translate($amount);
 }
+//common section used for content
+@mixin common {
+  
+}
