@@ -8,3 +8,10 @@ $secondbrown: #4c1a14;
 $tabbrown: #a13729;
 $blue: #021d2c;
 $footerblue: #6f8998;
+@mixin moving($amount) {
+  -webkit-transform: translate($amount);
+  -ms-transform: translate($amount);
+  -moz-transform: translate($amount);
+  -o-transform: translate($amount);
+  transform: translate($amount);
+}
