@@ -1,3 +1,4 @@
+//color variables
 $primary: #ffab00;
 $headerblue: #064159;
 $headerbrown: #72261d;
@@ -8,6 +9,7 @@ $secondbrown: #4c1a14;
 $tabbrown: #a13729;
 $blue: #021d2c;
 $footerblue: #6f8998;
+//mixing used to move links
 @mixin moving($amount) {
   -webkit-transform: translate($amount);
   -ms-transform: translate($amount);
