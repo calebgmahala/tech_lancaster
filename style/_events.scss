@@ -1,0 +1,40 @@
+//mobile
+.event {
+	width: 260px;
+	h3 {
+		color: $secondbrown;
+		font-size: 21px;
+		line-height: 32px;
+		letter-spacing: 1.1px;
+		font-family: 'Droid Serif';
+		font-weight: 700;
+	}
+	h4 {
+		color: $blue;
+		font-size: 18px;
+		line-height: 32px;
+		letter-spacing: .9px;
+		font-family: 'Lato';
+		font-weight: 700;
+	}
+	h5 {
+		@extend h4;
+		font-size: 16px;
+		letter-spacing: .8px;
+		font-weight: 400;
+	}
+	a {
+		display: inline-block;
+		@extend h5;
+		color: $mainbrown;
+		line-height: 36px;
+		margin-right: 50px;
+		font-weight: 700;
+		text-decoration: none;
+		-webkit-transition: transform .5s;
+		transition: transform .5s;
+	}
+	a:hover {
+		@include moving(20px);
+	}
+}
