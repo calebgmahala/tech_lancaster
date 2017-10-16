@@ -98,4 +98,17 @@ table {
       .header nav:hover ul li a:hover {
         background-color: #eb503c; }
 
+.hero {
+  background-image: url("images/hero.jpg");
+  background-position: 0 -40px;
+  height: 300px; }
+  .hero h1 {
+    color: #efe9d8;
+    padding: 108px 30% 0 27px;
+    line-height: 42px;
+    letter-spacing: 1.8px;
+    font-size: 36px;
+    font-family: 'Lato';
+    font-weight: 900; }
+
 /*# sourceMappingURL=style.css.map */

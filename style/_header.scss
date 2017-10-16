@@ -3,6 +3,7 @@
 	height: 58px;
 	width: 100%;
 	background-color: $primary;
+	//logo set up to go back to index page
 	.logo {
 		display: inline-block;
 		color: $headerblue;
@@ -10,6 +11,7 @@
 	  font-family: "Lato", sans-serif;
 		margin: 21px 0 0 24px;
 		text-decoration: underline;
+		//split up words into two in order to set different fonts
 		.tech {
 			font-weight: 400;
 			display: inline;
@@ -22,6 +24,7 @@
 	.logo:hover {
 		color: $white;
 	}
+	//burger bar for mobile site navigation
 	nav {
 		float: right;
 		margin: 12px;
