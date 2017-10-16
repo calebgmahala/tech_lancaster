@@ -4,28 +4,64 @@
 	width: 100%;
 	background-color: $primary;
 	.logo {
+		display: inline-block;
 		color: $headerblue;
 		size: 21px;
 	  font-family: "Lato", sans-serif;
-		margin: auto 0px auto 24px;
-		line-height: 58px;
+		margin: 21px 0 0 24px;
 		text-decoration: underline;
+		.tech {
+			font-weight: 400;
+			display: inline;
+		}
+		.lancaster {
+			font-weight: 900;
+			display: inline;
+		}
 	}
 	.logo:hover {
 		color: $white;
 	}
-	.logo:active {
-		color: black;
-	}
-	.tech {
-		font-weight: 400;
-		display: inline;
-	}
-	.lancaster {
-		font-weight: 900;
-		display: inline;
-	}
 	nav {
-		display: none;
+		float: right;
+		margin: 12px;
+		width: 30px;
+		height: 30px;
+		border-radius: 50px;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+		ul {
+			display: none;
+		}
+	}
+	nav:hover {
+		ul {
+			display: block;
+			position: relative;
+			background-color: $primary;
+			width: 100px;
+			border: 1px solid black;
+			right: 58px;
+			border-radius: 8px;
+			li {
+				border-bottom: 2px solid darkgrey;
+				display: block;
+				height: 50px;
+				a {
+					color: $headerbrown;
+					text-align: center;
+					text-decoration: none;
+					display: block;
+					height: 100%;
+					width: 100%;
+					transition: background-color .5s;
+				}
+				a:hover {
+					background-color: $tabred;
+				}
+			}
+		}
 	}
 }

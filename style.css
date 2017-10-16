@@ -50,23 +50,52 @@ table {
   width: 100%;
   background-color: #ffab00; }
   .header .logo {
+    display: inline-block;
     color: #064159;
     size: 21px;
     font-family: "Lato", sans-serif;
-    margin: auto 0px auto 24px;
-    line-height: 58px;
+    margin: 21px 0 0 24px;
     text-decoration: underline; }
+    .header .logo .tech {
+      font-weight: 400;
+      display: inline; }
+    .header .logo .lancaster {
+      font-weight: 900;
+      display: inline; }
   .header .logo:hover {
     color: #efe9d8; }
-  .header .logo:active {
-    color: black; }
-  .header .tech {
-    font-weight: 400;
-    display: inline; }
-  .header .lancaster {
-    font-weight: 900;
-    display: inline; }
   .header nav {
-    display: none; }
+    float: right;
+    margin: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px; }
+    .header nav img {
+      height: 100%;
+      width: 100%; }
+    .header nav ul {
+      display: none; }
+  .header nav:hover ul {
+    display: block;
+    position: relative;
+    background-color: #ffab00;
+    width: 100px;
+    border: 1px solid black;
+    right: 58px;
+    border-radius: 8px; }
+    .header nav:hover ul li {
+      border-bottom: 2px solid darkgrey;
+      display: block;
+      height: 50px; }
+      .header nav:hover ul li a {
+        color: #72261d;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        height: 100%;
+        width: 100%;
+        transition: background-color .5s; }
+      .header nav:hover ul li a:hover {
+        background-color: #eb503c; }
 
 /*# sourceMappingURL=style.css.map */
