@@ -145,6 +145,25 @@ table {
       color: #4e1c07;
       font-family: "Droid Serif";
       font-weight: 700; }
+    .main-section article a {
+      margin: 15px auto 0;
+      color: #efe9d8;
+      text-decoration: none;
+      font-size: 18px;
+      letter-spacing: 0.9px;
+      font-style: "Droid Serif";
+      font-weight: 700;
+      display: block;
+      line-height: 54px;
+      text-align: center;
+      background-color: #eb503c;
+      width: 80%;
+      height: 54px;
+      transition: border-radius .3s; }
+    .main-section article a:hover {
+      border-radius: 15px; }
+    .main-section article a:active {
+      background: linear-gradient(#eb503c, #4e1c07); }
   .main-section h4 {
     color: #eb503c;
     font-size: 16px;
