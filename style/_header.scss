@@ -2,7 +2,7 @@
 .header {
 	height: 58px;
 	width: 100%;
-	background-color: $primary;
+	background-color: $headerprimary;
 	//logo set up to go back to index page
 	.logo {
 		display: inline-block;
@@ -44,14 +44,14 @@
 		ul {
 			display: block;
 			position: relative;
-			background-color: $primary;
+			background-color: $headerprimary;
 			width: 100px;
 			border: 1px solid black;
 			right: 60px;
 			top: 13px;
 			border-radius: 8px;
 			li {
-				border-bottom: 2px solid darkgrey;
+				border-bottom: 2px solid $tabred;
 				display: block;
 				height: 50px;
 				a {
