@@ -17,7 +17,13 @@ $footerblue: #6f8998;
   -o-transform: translate($amount);
   transform: translate($amount);
 }
-//common section used for content
-@mixin common {
-  
+//common section  padding used for content mobile version
+@mixin common_mobile {
+  padding: 55px 20px;
+  p {
+    color: $blue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+  }
 }

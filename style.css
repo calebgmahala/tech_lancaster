@@ -52,10 +52,11 @@ table {
   .header .logo {
     display: inline-block;
     color: #064159;
-    size: 21px;
+    size: 24px;
     font-family: "Lato", sans-serif;
     margin: 21px 0 0 24px;
-    text-decoration: underline; }
+    text-decoration: none;
+    letter-spacing: 2.4px; }
     .header .logo .tech {
       font-weight: 400;
       display: inline; }
@@ -95,6 +96,7 @@ table {
         display: block;
         height: 100%;
         width: 100%;
+        -webkit-transition: background-color .5s;
         transition: background-color .5s; }
       .header nav:hover ul li a:hover {
         background-color: #eb503c; }
@@ -147,5 +149,15 @@ table {
     font-size: 36px;
     font-family: 'Lato';
     font-weight: 900; }
+
+.footer {
+  width: 100%;
+  padding-top: 35px; }
+  .footer h3 {
+    text-align: center;
+    size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: #6f8998; }
 
 /*# sourceMappingURL=style.css.map */
