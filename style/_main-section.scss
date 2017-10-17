@@ -22,6 +22,28 @@
 			font-family: "Droid Serif";
 			font-weight: 700;
 		}
+		a {
+			margin: 15px auto 0;
+			color: $white;
+			text-decoration: none;
+			font-size: 18px;
+			letter-spacing: 0.9px;
+			font-style: "Droid Serif";
+			font-weight: 700;
+			display: block;
+			line-height: 54px;
+			text-align: center;
+			background-color: $tabred;
+			width: 80%;
+			height: 54px;
+			transition: border-radius .3s;
+		}
+		a:hover {
+			border-radius: 15px;
+		}
+		a:active {
+			background: linear-gradient($tabred, $mainbrown)
+		}
 	}
 	h4 {
 		color: $tabred;
