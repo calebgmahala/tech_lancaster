@@ -7,10 +7,11 @@
 	.logo {
 		display: inline-block;
 		color: $headerblue;
-		size: 21px;
+		size: 24px;
 	  font-family: "Lato", sans-serif;
 		margin: 21px 0 0 24px;
-		text-decoration: underline;
+		text-decoration: none;
+		letter-spacing: 2.4px;
 		//split up words into two in order to set different fonts
 		.tech {
 			font-weight: 400;
@@ -60,6 +61,7 @@
 					display: block;
 					height: 100%;
 					width: 100%;
+					-webkit-transition: background-color .5s;
 					transition: background-color .5s;
 				}
 				a:hover {

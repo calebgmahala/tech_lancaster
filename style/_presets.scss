@@ -1,3 +1,4 @@
+//color variables
 $primary: #ffab00;
 $headerblue: #064159;
 $headerbrown: #72261d;
@@ -8,10 +9,21 @@ $secondbrown: #4c1a14;
 $tabbrown: #a13729;
 $blue: #021d2c;
 $footerblue: #6f8998;
+//mixing used to move links
 @mixin moving($amount) {
   -webkit-transform: translate($amount);
   -ms-transform: translate($amount);
   -moz-transform: translate($amount);
   -o-transform: translate($amount);
   transform: translate($amount);
+}
+//common section  padding used for content mobile version
+@mixin common_mobile {
+  padding: 55px 20px;
+  p {
+    color: $blue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+  }
 }
