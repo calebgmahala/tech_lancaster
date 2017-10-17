@@ -1,0 +1,52 @@
+//mobile
+.main-section {
+	padding: 0 10px;
+	background-color: $primary;
+	article {
+		width: 90%;
+		padding: 34px 5%;
+		p {
+			margin-top: 15px;
+			color: $blue;
+	    font-size: 15px;
+	    line-height: 24px;
+	    letter-spacing: 0.8px;
+	    font-family: "Droid Serif";
+		}
+		p:first-of-type {
+			margin-top: 0px;
+			font-size: 18px;
+			line-height: 28px;
+			letter-spacing: 0.9px;
+			color: $mainbrown;
+			font-family: "Droid Serif";
+			font-weight: 700;
+		}
+	}
+	h4 {
+		color: $tabred;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.8px;
+		font-family: "Lato";
+		font-weight: 700;
+	}
+	div {
+		width: 90%;
+		padding: 0 5% 34px;
+		h3 {
+			padding: 7px 0;
+			color: $secondbrown;
+			font-size: 21px;
+			line-height: 24px;
+			letter-spacing: 1.1px;
+			font-family: "Droid Serif";
+			font-weight: 700;
+		}
+	}
+	.underbar {
+		width: 90%;
+		padding: 34px 5%;
+		border-top: 2px solid $tabred;
+	}
+}

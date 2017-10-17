@@ -1,6 +1,6 @@
 //mobile
 .event {
-	width: 260px;
+	width: 255px !important;
 	h3 {
 		color: $secondbrown;
 		font-size: 21px;
@@ -9,7 +9,7 @@
 		font-family: 'Droid Serif';
 		font-weight: 700;
 	}
-	h4 {
+	.eh4 {
 		color: $blue;
 		font-size: 18px;
 		line-height: 32px;
@@ -17,15 +17,15 @@
 		font-family: 'Lato';
 		font-weight: 700;
 	}
-	h5 {
-		@extend h4;
+	.eh5 {
+		@extend .eh4;
 		font-size: 16px;
 		letter-spacing: .8px;
 		font-weight: 400;
 	}
 	a {
 		display: inline-block;
-		@extend h5;
+		@extend .eh5;
 		color: $mainbrown;
 		line-height: 36px;
 		margin-right: 50px;
