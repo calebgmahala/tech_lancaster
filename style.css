@@ -124,20 +124,20 @@ table {
     letter-spacing: 0.8px;
     color: #6f8998; }
 
-.main-section {
+.main_section {
   padding: 0 10px;
   background-color: #ffc400; }
-  .main-section article {
+  .main_section article {
     width: 90%;
     padding: 34px 5%; }
-    .main-section article p {
+    .main_section article p {
       margin-top: 15px;
       color: #021d2c;
       font-size: 15px;
       line-height: 24px;
       letter-spacing: 0.8px;
       font-family: "Droid Serif"; }
-    .main-section article p:first-of-type {
+    .main_section article p:first-of-type {
       margin-top: 0px;
       font-size: 18px;
       line-height: 28px;
@@ -145,7 +145,7 @@ table {
       color: #4e1c07;
       font-family: "Droid Serif";
       font-weight: 700; }
-    .main-section article a {
+    .main_section article a {
       margin: 15px auto 0;
       color: #efe9d8;
       text-decoration: none;
@@ -160,21 +160,21 @@ table {
       width: 80%;
       height: 54px;
       transition: border-radius .3s; }
-    .main-section article a:hover {
+    .main_section article a:hover {
       border-radius: 15px; }
-    .main-section article a:active {
+    .main_section article a:active {
       background: linear-gradient(#eb503c, #4e1c07); }
-  .main-section h4 {
+  .main_section h4 {
     color: #eb503c;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.8px;
     font-family: "Lato";
     font-weight: 700; }
-  .main-section div {
+  .main_section div {
     width: 90%;
     padding: 0 5% 34px; }
-    .main-section div h3 {
+    .main_section div h3 {
       padding: 7px 0;
       color: #4c1a14;
       font-size: 21px;
@@ -182,7 +182,7 @@ table {
       letter-spacing: 1.1px;
       font-family: "Droid Serif";
       font-weight: 700; }
-  .main-section .underbar {
+  .main_section .underbar {
     width: 90%;
     padding: 34px 5%;
     border-top: 2px solid #eb503c; }
@@ -222,5 +222,65 @@ table {
     -moz-transform: translate(20px);
     -o-transform: translate(20px);
     transform: translate(20px); }
+
+.core_values {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .core_values h3 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .core_values .paragraph_break {
+    padding-top: 15px; }
+  .core_values h4 {
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    font-weight: 700;
+    font-style: italic; }
+  .core_values nav {
+    display: none; }
+
+.greybox {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif";
+  background-color: #efe9d9; }
+  .greybox h3 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .greybox .paragraph_break {
+    padding-top: 15px; }
+
+.normal_sections {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .normal_sections h3 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .normal_sections .paragraph_break {
+    padding-top: 15px; }
+  .normal_sections ol {
+    list-style: decimal;
+    list-style-position: inside;
+    line-height: 28px; }
+  .normal_sections .end-of-list {
+    font-weight: 700;
+    font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */
