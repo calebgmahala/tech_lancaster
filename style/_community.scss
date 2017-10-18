@@ -1,0 +1,29 @@
+//mobile
+.core_values {
+    @include common_mobile;
+    h4 {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        font-weight: 700;
+        font-style: italic;
+    }
+    nav {
+        display: none;
+    }
+}
+.greybox {
+    @include common_mobile;
+    background-color: $beige;
+}
+.normal_sections {
+    @include common_mobile;
+    ol {
+        list-style: decimal;
+        list-style-position: inside;
+        line-height: 28px;
+    }
+    .end-of-list {
+        font-weight: 700;
+        font-style: italic;
+    }
+}

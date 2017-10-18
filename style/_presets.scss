@@ -10,6 +10,7 @@ $secondbrown: #4c1a14;
 $tabbrown: #a13729;
 $blue: #021d2c;
 $footerblue: #6f8998;
+$beige: #efe9d9;
 //mixing used to move links
 @mixin moving($amount) {
   -webkit-transform: translate($amount);
@@ -21,11 +22,18 @@ $footerblue: #6f8998;
 //common section  padding used for content mobile version
 @mixin common_mobile {
   padding: 55px 20px;
-  p {
-    color: $blue;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.8px;
-    font-family: "Droid Serif";
-  }
+  color: $blue;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif";
+    h3 {
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: 1.1px;
+        color: $mainbrown;
+    }
+    .paragraph_break {
+        padding-top: 15px; 
+    }
 }
