@@ -107,7 +107,7 @@ table {
   height: 300px; }
   .hero h1 {
     color: #efe9d8;
-    padding: 108px 30% 0 27px;
+    padding: 72px 30% 0 27px;
     line-height: 42px;
     letter-spacing: 1.8px;
     font-size: 36px;
@@ -282,5 +282,74 @@ table {
   .normal_sections .end-of-list {
     font-weight: 700;
     font-style: italic; }
+
+.schedule {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif"; }
+  .schedule h3 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .schedule .paragraph_break {
+    padding-top: 15px; }
+  .schedule .event {
+    padding-bottom: 40px;
+    margin: 0 auto; }
+  .schedule .event:last-of-type {
+    padding-bottom: 0px; }
+
+.get_involved, .start_meetup {
+  padding: 55px 20px;
+  color: #021d2c;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif";
+  background-color: #eb503c; }
+  .get_involved h3, .start_meetup h3 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: #4e1c07; }
+  .get_involved .paragraph_break, .start_meetup .paragraph_break {
+    padding-top: 15px; }
+  .get_involved h3, .start_meetup h3 {
+    color: #efe9d8;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 1.1px;
+    font-weight: 700; }
+  .get_involved p, .start_meetup p {
+    color: #efe9d8;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.9px;
+    font-family: "Lato"; }
+  .get_involved a, .start_meetup a {
+    width: 125px;
+    display: block;
+    padding-top: 25px;
+    text-decoration: none;
+    -webkit-transition: transform .5s;
+    transition: transform .5s;
+    color: #efe9d8;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    font-family: "Lato"; }
+  .get_involved a:hover, .start_meetup a:hover {
+    -webkit-transform: translate(40px);
+    -ms-transform: translate(40px);
+    -moz-transform: translate(40px);
+    -o-transform: translate(40px);
+    transform: translate(40px); }
+
+.start_meetup {
+  background-color: #a13729; }
 
 /*# sourceMappingURL=style.css.map */
