@@ -8,7 +8,7 @@
 		display: inline-block;
 		color: $headerblue;
 		size: 24px;
-	  font-family: "Lato", sans-serif;
+	    font-family: "Lato", sans-serif;
 		margin: 21px 0 0 24px;
 		text-decoration: none;
 		letter-spacing: 2.4px;
@@ -27,12 +27,10 @@
 	}
 	//burger bar for mobile site navigation
 	nav {
-        top: 0px;
 		float: right;
 		margin: 12px;
 		width: 30px;
 		height: 30px;
-		border-radius: 50px;
 		img {
 			height: 100%;
 			width: 100%;
@@ -52,7 +50,7 @@
 			left: 20%;
 			top: 50px;
 			li {
-                width: 102%;
+                width: 100%;
 				border-top: 2px solid $tabred;
 				display: block;
                 height: 25px;
@@ -76,4 +74,71 @@
             }
 		}
 	}
+}
+@media screen and(min-width: 765px) {
+    .header {
+        height: 77px;
+        nav {
+		  float: right;
+		  margin: 0;
+		  width: 630px;
+		  height: 100%;
+		  img {
+			display: none;
+		  }
+		  ul {
+			display: inline-block;
+		  }
+            li {
+                padding: 0 25px;
+                display: inline-block;
+                a {
+					color: $headerbrown;
+                    font-family: "Lato";
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0.8px;
+                    line-height: 77px;
+					text-align: center;
+					text-decoration: none;
+					display: block;
+				}
+            }
+	}
+	nav:hover {
+		ul {
+            padding: 0 1%;
+			display: block;
+			position: absolute;
+			background-color: $headerprimary;
+            width: 77.5%;
+			border: 1px solid black;
+			left: 20%;
+			top: 50px;
+			li {
+                width: 100%;
+				border-top: 2px solid $tabred;
+				display: block;
+                height: 25px;
+				a {
+					color: $headerbrown;
+                    line-height: 25px;
+					text-align: center;
+					text-decoration: none;
+					display: block;
+					height: 100%;
+					width: 100%;
+					-webkit-transition: background-color .5s;
+					transition: background-color .5s;
+				}
+				a:hover {
+					background-color: $tabred;
+				}
+			}
+            li:first-of-type {
+                border-top: 2px; //used to overide top line
+            }
+		}
+}
+}
 }

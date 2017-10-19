@@ -42,3 +42,8 @@
         @include moving(20px);
 	}
 }
+@media screen and(min-width: 765px) {
+    .event {
+        display: none;// used as a test for the media query
+    }
+}

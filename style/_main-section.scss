@@ -72,3 +72,8 @@
 		border-top: 2px solid $tabred;
 	}
 }
+@media screen and(min-width: 765px) {
+    .main_section {
+        display: none;// used as a test for the media query
+    }
+}
