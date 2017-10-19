@@ -27,6 +27,7 @@
 	}
 	//burger bar for mobile site navigation
 	nav {
+        top: 0px;
 		float: right;
 		margin: 12px;
 		width: 30px;
@@ -42,20 +43,22 @@
 	}
 	nav:hover {
 		ul {
+            padding: 0 1%;
 			display: block;
-			position: relative;
+			position: absolute;
 			background-color: $headerprimary;
-			width: 100px;
+            width: 77.5%;
 			border: 1px solid black;
-			right: 60px;
-			top: 13px;
-			border-radius: 8px;
+			left: 20%;
+			top: 50px;
 			li {
-				border-bottom: 2px solid $tabred;
+                width: 102%;
+				border-top: 2px solid $tabred;
 				display: block;
-				height: 50px;
+                height: 25px;
 				a {
 					color: $headerbrown;
+                    line-height: 25px;
 					text-align: center;
 					text-decoration: none;
 					display: block;
@@ -68,6 +71,9 @@
 					background-color: $tabred;
 				}
 			}
+            li:first-of-type {
+                border-top: 2px; //used to overide top line
+            }
 		}
 	}
 }

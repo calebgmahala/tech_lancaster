@@ -9,6 +9,7 @@
         padding-bottom: 0px;
     }
 }
+//colored sections on calendar webpage
 .get_involved {
     @include common_mobile;
     background-color: $tabred;
@@ -31,16 +32,19 @@
         display: block;
         padding-top: 25px;
         text-decoration: none;
-        -webkit-transition: transform .5s;
-        transition: transform .5s;
         color: $white;
         font-size: 18px;
         line-height: 27px;
         letter-spacing: 0.9px;
         font-family: "Lato";
+        span {
+            display: inline-block;
+            -webkit-transition: transform .5s;
+            transition: transform .5s;
+        }
     }
-    a:hover {
-            @include moving(40px);
+    a:hover span{
+            @include moving(80px);
     }
 }
 .start_meetup {

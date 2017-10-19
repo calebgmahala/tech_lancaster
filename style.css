@@ -66,6 +66,7 @@ table {
   .header .logo:hover {
     color: #efe9d8; }
   .header nav {
+    top: 0px;
     float: right;
     margin: 12px;
     width: 30px;
@@ -77,20 +78,22 @@ table {
     .header nav ul {
       display: none; }
   .header nav:hover ul {
+    padding: 0 1%;
     display: block;
-    position: relative;
+    position: absolute;
     background-color: #ffab00;
-    width: 100px;
+    width: 77.5%;
     border: 1px solid black;
-    right: 60px;
-    top: 13px;
-    border-radius: 8px; }
+    left: 20%;
+    top: 50px; }
     .header nav:hover ul li {
-      border-bottom: 2px solid #eb503c;
+      width: 102%;
+      border-top: 2px solid #eb503c;
       display: block;
-      height: 50px; }
+      height: 25px; }
       .header nav:hover ul li a {
         color: #72261d;
+        line-height: 25px;
         text-align: center;
         text-decoration: none;
         display: block;
@@ -100,6 +103,8 @@ table {
         transition: background-color .5s; }
       .header nav:hover ul li a:hover {
         background-color: #eb503c; }
+    .header nav:hover ul li:first-of-type {
+      border-top: 2px; }
 
 .hero {
   background-image: url("images/hero.jpg");
@@ -213,10 +218,12 @@ table {
     line-height: 36px;
     margin-right: 50px;
     font-weight: 700;
-    text-decoration: none;
-    -webkit-transition: transform .5s;
-    transition: transform .5s; }
-  .event a:hover {
+    text-decoration: none; }
+    .event a span {
+      display: inline-block;
+      -webkit-transition: transform .5s;
+      transition: transform .5s; }
+  .event a:hover span {
     -webkit-transform: translate(20px);
     -ms-transform: translate(20px);
     -moz-transform: translate(20px);
@@ -335,19 +342,21 @@ table {
     display: block;
     padding-top: 25px;
     text-decoration: none;
-    -webkit-transition: transform .5s;
-    transition: transform .5s;
     color: #efe9d8;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.9px;
     font-family: "Lato"; }
-  .get_involved a:hover, .start_meetup a:hover {
-    -webkit-transform: translate(40px);
-    -ms-transform: translate(40px);
-    -moz-transform: translate(40px);
-    -o-transform: translate(40px);
-    transform: translate(40px); }
+    .get_involved a span, .start_meetup a span {
+      display: inline-block;
+      -webkit-transition: transform .5s;
+      transition: transform .5s; }
+  .get_involved a:hover span, .start_meetup a:hover span {
+    -webkit-transform: translate(80px);
+    -ms-transform: translate(80px);
+    -moz-transform: translate(80px);
+    -o-transform: translate(80px);
+    transform: translate(80px); }
 
 .start_meetup {
   background-color: #a13729; }
