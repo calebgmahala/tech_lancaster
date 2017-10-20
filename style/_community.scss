@@ -27,3 +27,14 @@
         font-style: italic;
     }
 }
+@media screen and(min-width: 765px) {
+    .core_values {
+        display: none;// used as a test for the media query
+    }
+    .greybox {
+        display: none;// used as a test for the media query
+    }
+    .normal_sections {
+        display: none;// used as a test for the media query
+    }
+}
