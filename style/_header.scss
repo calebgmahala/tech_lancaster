@@ -78,19 +78,21 @@
 @media screen and(min-width: 765px) {
     .header {
         height: 77px;
+        .logo {
+            margin: 30px 0 0 29px;
+        }
         nav {
 		  float: right;
 		  margin: 0;
-		  width: 630px;
+		  width: 550px;
 		  height: 100%;
 		  img {
 			display: none;
 		  }
 		  ul {
 			display: inline-block;
-		  }
             li {
-                padding: 0 25px;
+                padding: 0 18px;
                 display: inline-block;
                 a {
 					color: $headerbrown;
@@ -98,39 +100,57 @@
                     font-weight: 700;
                     font-size: 16px;
                     letter-spacing: 0.8px;
-                    line-height: 77px;
+                    line-height: 72px;
 					text-align: center;
 					text-decoration: none;
 					display: block;
 				}
+                .on_page {
+                    color: $white !important;//overides the color set at the bottom of the page
+                    background-color: $tabred;
+                }
             }
-	}
+        }
+    }
 	nav:hover {
 		ul {
-            padding: 0 1%;
-			display: block;
-			position: absolute;
+            padding: 0;
+			display: inline-block;
+			position: static;
 			background-color: $headerprimary;
-            width: 77.5%;
-			border: 1px solid black;
-			left: 20%;
-			top: 50px;
+            width: 100%;
+			border: 0px;
+			left: 0px;
+			top: 0px;
 			li {
-                width: 100%;
-				border-top: 2px solid $tabred;
-				display: block;
-                height: 25px;
+                width: auto;
+				border-top: 0px;
+				display: inline-block;
+                height: auto;
 				a {
 					color: $headerbrown;
-                    line-height: 25px;
+                    font-family: "Lato";
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0.8px;
+                    line-height: 72px;
 					text-align: center;
 					text-decoration: none;
-					display: block;
-					height: 100%;
-					width: 100%;
+					display: inline-block;
+					height: auto;
+					width: auto;
 					-webkit-transition: background-color .5s;
 					transition: background-color .5s;
 				}
+                a:hover:nth-of-type(1) {
+                    color: $white
+                }
+                a:hover:nth-of-type(2) {
+                    color: $white
+                }
+                a:hover:nth-of-type(3) {
+                    color: $white
+                }
 				a:hover {
 					background-color: $tabred;
 				}
@@ -139,6 +159,6 @@
                 border-top: 2px; //used to overide top line
             }
 		}
-}
+    }
 }
 }

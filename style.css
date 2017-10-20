@@ -107,52 +107,67 @@ table {
 @media screen and (min-width: 765px) {
   .header {
     height: 77px; }
+    .header .logo {
+      margin: 30px 0 0 29px; }
     .header nav {
       float: right;
       margin: 0;
-      width: 630px;
+      width: 550px;
       height: 100%; }
       .header nav img {
         display: none; }
       .header nav ul {
         display: inline-block; }
-      .header nav li {
-        padding: 0 25px;
-        display: inline-block; }
-        .header nav li a {
+        .header nav ul li {
+          padding: 0 18px;
+          display: inline-block; }
+          .header nav ul li a {
+            color: #72261d;
+            font-family: "Lato";
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 0.8px;
+            line-height: 72px;
+            text-align: center;
+            text-decoration: none;
+            display: block; }
+          .header nav ul li .on_page {
+            color: #efe9d8 !important;
+            background-color: #eb503c; }
+    .header nav:hover ul {
+      padding: 0;
+      display: inline-block;
+      position: static;
+      background-color: #ffab00;
+      width: 100%;
+      border: 0px;
+      left: 0px;
+      top: 0px; }
+      .header nav:hover ul li {
+        width: auto;
+        border-top: 0px;
+        display: inline-block;
+        height: auto; }
+        .header nav:hover ul li a {
           color: #72261d;
           font-family: "Lato";
           font-weight: 700;
           font-size: 16px;
           letter-spacing: 0.8px;
-          line-height: 77px;
+          line-height: 72px;
           text-align: center;
           text-decoration: none;
-          display: block; }
-    .header nav:hover ul {
-      padding: 0 1%;
-      display: block;
-      position: absolute;
-      background-color: #ffab00;
-      width: 77.5%;
-      border: 1px solid black;
-      left: 20%;
-      top: 50px; }
-      .header nav:hover ul li {
-        width: 100%;
-        border-top: 2px solid #eb503c;
-        display: block;
-        height: 25px; }
-        .header nav:hover ul li a {
-          color: #72261d;
-          line-height: 25px;
-          text-align: center;
-          text-decoration: none;
-          display: block;
-          height: 100%;
-          width: 100%;
+          display: inline-block;
+          height: auto;
+          width: auto;
           -webkit-transition: background-color .5s;
           transition: background-color .5s; }
+        .header nav:hover ul li a:hover:nth-of-type(1) {
+          color: #efe9d8; }
+        .header nav:hover ul li a:hover:nth-of-type(2) {
+          color: #efe9d8; }
+        .header nav:hover ul li a:hover:nth-of-type(3) {
+          color: #efe9d8; }
         .header nav:hover ul li a:hover {
           background-color: #eb503c; }
       .header nav:hover ul li:first-of-type {
