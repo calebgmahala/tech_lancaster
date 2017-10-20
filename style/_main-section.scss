@@ -24,6 +24,7 @@
 		}
 		a {
 			margin: 15px auto 0;
+            margin-top: 40px;
 			color: $white;
 			text-decoration: none;
 			font-size: 18px;
@@ -54,8 +55,6 @@
 		font-weight: 700;
 	}
 	div {
-		width: 90%;
-		padding: 0;
 		h3 {
 			padding: 7px 0;
 			color: $secondbrown;
@@ -66,42 +65,43 @@
 			font-weight: 700;
 		}
 	}
-	.underbar {
+}
+.underbar {
 		width: 90%;
 		padding: 34px 5%;
 		border-top: 2px solid $tabred;
 	}
-}
 @media screen and(min-width: 765px) {
     .main_section {
-        padding: 0 2.5%;
-        display: block;
+        display: flex;
+        min-width: 670px;
+        padding: 0;
         width: 80%;
         position: relative;
         top: -100px;
         left: 10%;
+        align-items: center;
         article {
             height: 100%;
-            width: 50%;
+            width: auto;
             display: inline-block;
         }
         aside {
-            width: 40%;
+            h4:first-child {//used to not call the event h4
+                padding: 0 2.5%;
+            }
         }
         div {
-            width: 25%;
-            padding: 0;
             display: inline-block;
         }
-        .underbar {
-            padding: 34px 2.5%;
-            height: 225px;
+    }
+    .underbar {
+            padding: 0 2.5%;
+            height: 100%;
             vertical-align: top;
-            margin: 50px 0;
+            margin: 2.5% 0;
             display: inline-block;
-            width: auto;
             border-top: 0;
             border-left: 2px solid $tabred;
         }
-    }
 }

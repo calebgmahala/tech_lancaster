@@ -29,12 +29,34 @@
 }
 @media screen and(min-width: 765px) {
     .core_values {
-        display: block;
+        @include common;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         h4 {
             display: inline-block;
         }
         nav {
+            width: 300px;
             display: inline-block;
+            h4 {
+		        color: $tabred;
+                font-size: 16px;
+                line-height: 24px;
+                font-style: normal;
+                letter-spacing: 0.8px;
+                font-family: "Lato";
+		        font-weight: 700;
+                display: block;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                line-height: 36px;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
         }
     }
     .greybox {
