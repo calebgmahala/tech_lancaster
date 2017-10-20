@@ -37,3 +37,20 @@ $beige: #efe9d9;
         padding-top: 15px; 
     }
 }
+@mixin common {
+  padding: 55px 120px;
+  color: $blue;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  font-family: "Droid Serif";
+    h3 {
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: 1.1px;
+        color: $mainbrown;
+    }
+    .paragraph_break {
+        padding-top: 15px; 
+    }
+}
