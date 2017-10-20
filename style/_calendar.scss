@@ -53,12 +53,26 @@
 }
 @media screen and(min-width: 765px) {
     .schedule {
-        display: none;// used as a test for the media query
+        @include common;
+        align-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        .event {
+            display: inline-block;
+            padding: 3% 2%;
+        }
     }
     .get_involved {
-        display: none;// used as a test for the media query
+        @include common;
+        display: inline-block;
+        width: 30%;
+        padding: 55px 5%;
     }
     .start_meetup {
-        display: none;// used as a test for the media query
+        float: right;
+        @include common;
+        display: inline-block;
+        width: 47%;
+        padding: 55px 5%;
     }
 }

@@ -29,12 +29,20 @@
 }
 @media screen and(min-width: 765px) {
     .core_values {
-        display: none;// used as a test for the media query
+        display: block;
+        h4 {
+            display: inline-block;
+        }
+        nav {
+            display: inline-block;
+        }
     }
     .greybox {
-        display: none;// used as a test for the media query
+        @include common;
+        display: block;
     }
     .normal_sections {
-        display: none;// used as a test for the media query
+        @include common;
+        display: block;
     }
 }

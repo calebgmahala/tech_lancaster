@@ -55,7 +55,7 @@
 	}
 	div {
 		width: 90%;
-		padding: 0 5% 34px;
+		padding: 0;
 		h3 {
 			padding: 7px 0;
 			color: $secondbrown;
@@ -74,6 +74,34 @@
 }
 @media screen and(min-width: 765px) {
     .main_section {
-        display: none;// used as a test for the media query
+        padding: 0 2.5%;
+        display: block;
+        width: 80%;
+        position: relative;
+        top: -100px;
+        left: 10%;
+        article {
+            height: 100%;
+            width: 50%;
+            display: inline-block;
+        }
+        aside {
+            width: 40%;
+        }
+        div {
+            width: 25%;
+            padding: 0;
+            display: inline-block;
+        }
+        .underbar {
+            padding: 34px 2.5%;
+            height: 225px;
+            vertical-align: top;
+            margin: 50px 0;
+            display: inline-block;
+            width: auto;
+            border-top: 0;
+            border-left: 2px solid $tabred;
+        }
     }
 }
